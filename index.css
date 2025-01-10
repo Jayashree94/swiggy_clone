@@ -1,0 +1,24 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+
+}
+.Navitems > ul {
+    display: flex;
+    padding: 0px 100px;
+    
+  
+}
+.Navitems > ul > li {
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+    font-size: large;
+}
+
+.ResCard {
+    height: 300px;
+    width: 200px;
+    border: 1px solid black;
+}
