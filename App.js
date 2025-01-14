@@ -11,7 +11,9 @@ const Header =() => {
         
         <div className="Navitems">
             <ul>
-                <li>Home</li>
+                <li>
+                    <link to="/" >Home </link>
+                </li>
                 <li>About</li>
                 <li>Contact US</li>
                 <li>Cart</li>
@@ -57,6 +59,8 @@ const AppLayout = () => {
     </div>
   );
 };
+
+
      
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<AppLayout></AppLayout>);
+root.render(<AppLayout/>)
